@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1{
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+h4{
+    color: white;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color:black;
+    border: 4px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-position: center;
+    background-attachment: fixed;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+
+    
+} 
+
+#titre{
+    width: 30%;
+    height: 100%;
+    background-color:black;
+
+    /* border-top: 30%; comment faire descendre la bordure du titre*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+main{
+    width: 100vw;
+    height: 90vh; /* POURQUOI J'AI UNE BORDURE ARRONDIE EN HAUT A GAUCHE */
+    background-color:blue;
+
+    display: flex;
+    align-items: center;
+    
+} 
+
+
+#presentation{
+    width: 50%;
+    height: 100%;
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+
+
+#description{
+    width: 100%;
+    height: 80%;
+    background-color:black;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+
+   flex-direction: column;
+   padding: 10%;
+    
+} 
+
+.bloc{
+    width: 50%;
+    height: 30%;
+    background-color: palevioletred;
+    border: 4px solid black;
+    justify-content: space-around;
+    /* display: flex;
+   flex-direction: column; 
+   padding: 5vh;*/
+    
+}
+
+
+.dev{
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    font-family: 'Jockey One', sans-serif;
+
+    /* font-family: 'Barlow Condensed', sans-serif;
+     font-family: 'Barlow Condensed', sans-serif; */
+}
+/*
+#hello{
+    
+    align-content: flex-end; COMMENT FAIRE DESCENDRE MON TEXTE
+}*/
+
+#para{
+    font-size: 45px;
+    padding: 10px;
+}
+
+#reseau{
+    width: 40%;
+    height: 20%;
+    background-color:yellowgreen;
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ /*   padding-bottom: 30px;
+ POURQUOI MES BULLES NE FONT PAS LA MEME TAILLE ????*/
+
+     /* padding-right: 60px;
+    padding: 30%;
+    flex-direction: column;*/
+    
+}
+
+.lecture{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+
+.bulle{
+    width: 50px;
+    height: 50px;
+    background-color:navy;
+
+    justify-content: space-around;
+    display: flex;
+    /* flex-direction: column; */
+    border-radius: 150px;
+    
+}
+
+#linkdin{
+    /* width: 50px;
+    height: 50px; */
+    background-image: url(images/linkedin-2935407_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#github{
+    background-image: url(images/logo-2582757_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: red;
+    /* POURQUOI MON LOGO NE PREND PAS TOUTES LA PLACE */
+}
+
+#pic{
+    width: 50%;
+    height: 100%;
+    background-color:purple;
+
+   position: relative;
+}
+
+#photo{
+    width: 400px;
+    height: 98%;
+    background-color:olive;
+
+    background-image: url(images/woman-8402067_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40%;
+    position: absolute;
+    right: -20px;
+    /* METTRE LA PHOTO UN PEU A L'EXTERIEUR EN HAUT ET A DROITE DE LA PAGE */
+}
+
+/* button{
+    
+background-color:transparent;
+    
+} */
+
+a{  
+    outline: none;
+  text-decoration: none;
+}
+
+#grosbloc{
+    width: 100vw;
+    height: 100vh;
+    background-color: slateblue;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.section{
+    width: 33%;
+    height: 48%;
+    background-color: green;
+   border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cercle{
+    width: 300px;
+    height: 300px;
+    background-color:navy;
+   /* outline: none;
+    text-decoration: none; */
+    justify-content: space-around;
+    display: flex;
+    /* flex-direction: column; */
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture{
+    width: 400px;
+    height: 300px;
+    background-image: url(images/michael-mcauliffe-J9QhKQzuh0g-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    border-radius: 50%;
+}
+
+#cv{
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+    
+    background-image: url(images/sew-2564557_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+}
+
+#diplome{
+    width:200px ;
+    height: 300px;
+    background-image: url(images/ospan-ali-nyrSsBzhZ4Y-unsplash.jpg);
+    background-size: cover;
+    border-radius: 70%;
+}
+
+#competence{
+    font-size: 20px;
+    color: magenta;
+    font-weight: bold;
+    width: 250px;
+    height: 500px;
+    background-image: url(images/hipster-mum-XookgCxFw6Q-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#hobbie{
+    font-size: 20px;
+    font-weight: bold;
+    color: magenta;
+    width: 300px;
+    height: 400px;
+    
+    font-weight: bold;
+    background-image: url(images/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#paris{
+    width: 400px;
+    height: 200px;
+    background-image: url(images/louvre-817719_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    right: -20px;
+   /* bottom: -10px; */
+}
+
+p{
+    text-align: center;
+    background-position: center;
+}
+
+#doll{
+    width: 100px;
+    height: 100px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    border:none;
+
+    position: fixed;
+
+
+     right: 20px;
+    bottom: 20px;
+    /* je voudrais mettre mon bouton a droite et faire en sorte qui suivent ma page */
+}
+#sac {
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+/* */
+
+#parent{
+    width: 100vw;
+    height: 100vh;
+    background-color:palevioletred;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    
+} 
+
+#experience{
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#formation{
+    width: 50vw;
+    height: 100vh;
+    background-color: aquamarine;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#poupee{
+    width: 100px;
+    height: 150px;
+    align-items: end;
+    
+}
+
+button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    border:none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
