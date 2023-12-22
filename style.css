@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
+
 *{
     margin: 0;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,7 +31,7 @@ h4{
 
 nav{
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     background-color:black;
     border: 4px solid white;
     display: flex;
@@ -33,7 +42,7 @@ nav{
     background-attachment: fixed;
     position:sticky;
     top: 0;
-    z-index: 1;
+    z-index: 6;
 
     
 } 
@@ -54,11 +63,12 @@ nav{
 
 main{
     width: 100vw;
-    height: 90vh; /* POURQUOI J'AI UNE BORDURE ARRONDIE EN HAUT A GAUCHE */
-    background-color:blue;
+    height: 85vh; /* POURQUOI J'AI UNE BORDURE ARRONDIE EN HAUT A GAUCHE */
+    background-color:#2F4F4F;
 
     display: flex;
     align-items: center;
+    z-index: 5;
     
 } 
 
@@ -79,6 +89,7 @@ main{
     height: 80%;
     background-color:black;
     border: 4px solid black;
+    text-align: right;
     display: flex;
     justify-content: center;
 
@@ -104,26 +115,29 @@ main{
     font-size: 70px;
     font-weight: bold;
     color: red;
-    font-family: 'Jockey One', sans-serif;
+    font-family:'Gajraj One', sans-serif;;
+    text-align: left;
 
     /* font-family: 'Barlow Condensed', sans-serif;
      font-family: 'Barlow Condensed', sans-serif; */
 }
-/*
+
 #hello{
-    
-    align-content: flex-end; COMMENT FAIRE DESCENDRE MON TEXTE
-}*/
+    text-align: left;
+   /* align-content: flex-end; COMMENT FAIRE DESCENDRE MON TEXTE*/
+}
 
 #para{
-    font-size: 45px;
-    padding: 10px;
+    font-size: 30px;
+    font-family: 'Jockey One', sans-serif;
+    text-align: left;
+    padding: 20px;
 }
 
 #reseau{
     width: 40%;
     height: 20%;
-    background-color:yellowgreen;
+    background-color:#2F4F4F;
     border: 4px solid black;
     display: flex;
     justify-content: space-around;
@@ -146,7 +160,7 @@ main{
 .bulle{
     width: 50px;
     height: 50px;
-    background-color:navy;
+    background-color:#2F4F4F;
 
     justify-content: space-around;
     display: flex;
@@ -176,20 +190,23 @@ main{
 #pic{
     width: 50%;
     height: 100%;
-    background-color:purple;
+    background-color: black;
+
+    /*
+    background-color:#191970; */
 
    position: relative;
 }
 
 #photo{
     width: 400px;
-    height: 98%;
+    height: 500px;
     background-color:olive;
 
     background-image: url(images/woman-8402067_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 40%;
+    border-radius: 45%;
     position: absolute;
     right: -20px;
     /* METTRE LA PHOTO UN PEU A L'EXTERIEUR EN HAUT ET A DROITE DE LA PAGE */
@@ -204,43 +221,39 @@ background-color:transparent;
 a{  
     outline: none;
   text-decoration: none;
+
 }
 
-#grosbloc{
-    width: 100vw;
-    height: 100vh;
-    background-color: slateblue;
-    display: flex;
-    flex-wrap: wrap;
+
+
+* {
+    margin:0;
+  }
+  body {
+    background-color:black;
+  }
+  
+  .container {
+    max-width: 1200px;
+    max-height: 900px;
+    margin: auto;
+    height:85vh;
+    background-color:black;
+    position:relative;
+    z-index: 1;
+    overflow: hidden;
+ 
+  }
+  
+  .bullegeneral {
+    width:200px;
+    height:200px;
+    background-color:purple;
+    border-radius:100%;
     
-
-}
-
-.section{
-    width: 33%;
-    height: 48%;
-    background-color: green;
-   border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-}
-
-.cercle{
-    width: 300px;
-    height: 300px;
-    background-color:navy;
-   /* outline: none;
-    text-decoration: none; */
-    justify-content: space-around;
-    display: flex;
-    /* flex-direction: column; */
-    border-radius: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#picture{
+  }
+  
+  #bulle1 {
     width: 400px;
     height: 300px;
     background-image: url(images/michael-mcauliffe-J9QhKQzuh0g-unsplash.jpg);
@@ -248,72 +261,151 @@ a{
     background-repeat: no-repeat;
     background-position: 20% 50%;
     border-radius: 50%;
-}
+    position:absolute;
+    top:-30px;
+    left: 150px;
+ z-index: 4;
+  }
 
-#cv{
+  #bulle2 {
+    width: 250px;
+    height: 250px;
     font-size: 30px;
     color:red;
     font-weight: bold;
-    
-    background-image: url(images/sew-2564557_640.jpg);
+    font-family:'Gajraj One', sans-serif; ;
+    background-image: url(images/ivan-zhukevich-7ZC4qO3Gj6g-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 10% 10%; 
     border-radius: 100%;
-}
+    position:absolute;
+    top:100px;
+    left:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-#diplome{
-    width:200px ;
-    height: 300px;
-    background-image: url(images/ospan-ali-nyrSsBzhZ4Y-unsplash.jpg);
-    background-size: cover;
-    border-radius: 70%;
-}
+  #cv{
+    width: 100px;
+    height:50px;
+  border:1px solid red; 
+    /* margin-right: auto;
+    margin-left: auto; */
+    top: 100px;
+    left: 5px;
+  }
 
-#competence{
+  #bulle3 {
     font-size: 20px;
     color: magenta;
     font-weight: bold;
     width: 250px;
-    height: 500px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-image: url(images/hipster-mum-XookgCxFw6Q-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-}
 
-#hobbie{
-    font-size: 20px;
+    position:absolute;
+    bottom:5px;
+    left:1px;
+  }
+
+  #competence{
+    font-size: 10px;
+    width: 100px;
+    height:50px;
+  border:1px solid red; 
+    /* margin-right: auto;
+    margin-left: auto; */
+    top: 100px;
+    left: 5px;
+  }
+
+  #bulle4 {
+    font-size: 30px;
+    color:olivedrab;
     font-weight: bold;
-    color: magenta;
-    width: 300px;
+    text-align: center;
+    width:200px ;
     height: 400px;
-    
-    font-weight: bold;
-    background-image: url(images/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
+    background-image: url(images/ospan-ali-nyrSsBzhZ4Y-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-}
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#paris{
+    position:absolute;
+    top: -20px;
+    right:1px;
+    bottom: 50px;
+    z-index: 4;
+  }
+  #bulle5 {
     width: 400px;
     height: 200px;
     background-image: url(images/louvre-817719_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 100%;
-    position: absolute;
-    right: -20px;
-   /* bottom: -10px; */
-}
+
+   
+
+
+    position:absolute;
+    /* top:20px; */
+    right: -60px;
+    bottom: -40px;
+  }
+
+  #bulle6 {
+    
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: magenta;
+    width: 300px;
+    height: 300px;
+   
+    font-weight: bold;
+    background-image: url(images/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-position: 70% 50%;
+    position:absolute;
+    bottom: -30px;
+    left: 400px;
+  }
+
+  #hobbie{
+    width:150px;
+    height:150px;
+  /* border:1px solid red; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+
+
 
 p{
     text-align: center;
     background-position: center;
-}
+} 
 
 #doll{
     width: 100px;
@@ -323,14 +415,21 @@ p{
     align-items: center;
     background-color:transparent;
     border:none;
-
-    position: fixed;
-
-
-     right: 20px;
-    bottom: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
     /* je voudrais mettre mon bouton a droite et faire en sorte qui suivent ma page */
 }
 #sac {
     width: 100%;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+  .container{
+    width: ;
+    height: ;
+  }
 }

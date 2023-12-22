@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    max-height: 900px;
+    margin: auto;
+    height:100vh;
+}
+
+#general{
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#parent{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(images/frame-5455558_1920.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+h1{
+    font-size: 30px;
+    color: orangered;
+    font-style: inherit;
+    font-family: fantasy;
+    text-decoration: underline;
+    margin-bottom: 1em; 
+    
+    /* on ajoute un espace après chaque paragraphe */
+
+}
+
+h4{
+    font-size: 25px;
+    color: palevioletred;
+    font-style: inherit;
+    font-family: fantasy;
+    text-decoration: underline;
+    margin-bottom: 1em; 
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color:whitesmoke;
+    margin-bottom: 10px;
+    border: 10px;
+    padding: 4px;
+}
+
+.texte{
+    width:1000px;
+    height:200px;
+  border:1px solid red;
+  
+    background-position: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    align-items: center;
+justify-content: center;
+}
+
+#sac{
+    width: 50px;
+    height: 200px;
+  
+}
+
+
+button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:transparent;
+    border:none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    /* je voudrais mettre mon bouton a droite et faire en sorte qui suivent ma page */
+}
+

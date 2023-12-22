@@ -1,0 +1,201 @@
+omar marzougui
+omar marzougui dit:<nav>
+    <div class="logo"></div>
+  <div class="links">
+</nav>
+
+<div class="main">
+  <h2>Hi! I'm</h2>
+  <h2>Développeur web junior</h2>
+  <p>I design and code a beautiful website</p>
+  <div class="arrow"></div>
+</div>
+  
+<div class="parallax parallax1">
+  <h1>Lorem ipsum sic amet</h1>
+</div>
+<div class="cv">
+  <div class="experience">
+    <h1>Expérience</h1>
+    <p>2002 - Gardien d'immeuble</p>
+    <p>2020 - Agent de sécurité</p>
+  </div>
+  <div class="competence">
+    <h1>Compétence</h1>
+    <p>HTML - Niveau junior</p>
+    <p>CSS - Niveau junior</p>
+  </div>
+  <div class="diplome">
+    <h1>Diplome</h1>
+    <p>2007 - Bac spécialité comptabilité</p>
+    <p>2012 - Formation Numérique Modul'R</p>
+  </div>
+</div>
+<div class="parallax parallax2">
+  <div class="about">
+    <h1 class="title_about">About me</h1>
+  <p>Passionné par l'informatique, j'ai toujours voulu en faire mon metier, passionné par l'evolution des nouvelles technologies, je souhaite mettre mes compétences au service de votre entreprise.</p>
+  </div>
+</div> 
+omar marzougui dit:* {
+  margin :0;
+}
+p, h1 {
+  font-family😒ans-serif;
+}
+nav {
+  width:100%;
+  height:20vh;
+  background-color:black;
+}
+.logo {
+  width :60px;
+  height:60px;
+  background-image: url(
+https://th.bing.com/th/id/OIG.oWS6Ea._OgDZkSbv51Ue?pid=ImgGn
+);
+  background-size:cover;
+}
+.main {
+  width:100%;
+  height:80vh;
+  background-color:black;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  font-family😒ans-serif;
+}
+
+h2 {
+  font-size : 40px;
+}
+.arrow {
+  margin-top:20px;
+  width:60px;
+  height:60px;
+    background-image: url(
+https://th.bing.com/th/id/OIG.oWS6Ea._OgDZkSbv51Ue?pid=ImgGn
+);
+  background-size:cover;
+}
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("
+https://www.codeur.com/tuto/wp-content/uploads/2022/02/p1.jpg
+");
+}
+
+.parallax2 {
+  background-image: url("
+https://www.codeur.com/tuto/wp-content/uploads/2022/02/p2.jpg
+");
+}
+.cv{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content😒pace-around;
+  align-items:center;
+}
+.about {
+  width:100%;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+}
+
+.title_about {
+  margin:50px;
+} 
+omar marzougui dit:auttttttttttttere!!!!!!!!!!!!!!!!!!!!!! 
+omar marzougui dit:<div class="parent_title">
+     <h1 class="title1">Lorem ipsum sic amet</h1>
+    <p>Omar</p>
+  </div> 
+omar marzougui dit:.parent_title {
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  background-color:#00000094;
+  color:white;
+}
+.title1 {
+  width:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+} 
+omar marzougui dit:<div class="container">
+  <div id="bulle1" class="bulle"></div>
+  <div id="bulle2" class="bulle"></div>
+  <div id="bulle3" class="bulle"></div>
+  <div id="bulle4" class="bulle"></div>
+  <div id="bulle5" class="bulle"></div>
+  <div id="bulle6" class="bulle"></div>
+</div> 
+omar marzougui dit:* {
+  margin:0;
+}
+body {
+  background-color:black;
+}
+
+.container {
+  max-width:1200px;
+  margin:auto;
+  height:100vh;
+  background-color:black;
+  position:relative;
+}
+
+.bulle {
+  width:200px;
+  height:200px;
+  background-color😛urple;
+  border-radius:100%;
+}
+
+#bulle1 {
+  position:absolute;
+  top:20px;
+  left:30px;
+}
+#bulle2 {
+  position:absolute;
+  top:40px;
+  left:600px;
+}
+#bulle3 {
+  position:absolute;
+  bottom:20px;
+  left:80px;
+}
+#bulle4 {
+  position:absolute;
+  top:20px;
+  left:30px;
+}
+#bulle5 {
+  position:absolute;
+  top:20px;
+  left:30px;
+}
+#bulle6 {
+  position:absolute;
+  top:20px;
+  left:30px;
+} 
+12:40
